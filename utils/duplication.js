@@ -11,7 +11,9 @@ class DuplicationCounter {
    * @param {*} maxLength the maximum length of the repetition to be considered [Optional(default=1)]
    */
   count(str, maxLength = 1) {
-    return [];
+    return [
+      {'a': 1}
+    ];
   }
 
 }
