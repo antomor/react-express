@@ -12,7 +12,10 @@ class DuplicationCounter {
    */
   count(str, maxLength = 1) {
     return [
-      {'a': 1}
+      {
+        'key': 'a',
+        'value': 2
+      }
     ];
   }
 
