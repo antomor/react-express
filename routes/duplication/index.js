@@ -1,5 +1,4 @@
 const express = require('express');
-const char = require('./char')
 const string = require('./string')
 
 module.exports = function(app) {
@@ -8,6 +7,5 @@ module.exports = function(app) {
   const base = '/api/duplication';
   app.use(base, route);
 
-  route.get('/char', char);
   route.get('/string/:value', string);
 }
