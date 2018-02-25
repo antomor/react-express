@@ -22,5 +22,4 @@ Duplicates.propTypes = {
   }))
 }
 
-
 export default Duplicates;

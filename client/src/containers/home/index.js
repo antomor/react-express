@@ -1,21 +1,30 @@
-import React from 'react'
+import React, {Component} from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import Duplicates from '../../components/Duplicates'
+import ResultView from '../../components/ResultView'
+import InputHandler from '../../components/InputHandler'
+import Loading from '../../components/Loading'
 
 import {
   countDuplicatesIfValue
 } from '../../actions'
 
-const Home = props => (
-  <div>
-    <h1>Home</h1>
-    <div>
-      <button onClick={(e) => props.countDuplicatesIfValue('hello')} disabled={props.isCalculating}>Calculate</button>
-      <Duplicates items={props.duplicates} />
-    </div>
-  </div>
-)
+class Home extends Component {
+  render(){
+    const result = this.props.isCalculating ?
+        <Loading />:
+        <ResultView items={this.props.duplicates} />
+    return (
+      <div>
+        <h1>Home</h1>
+        <div>
+          <InputHandler />
+          {result}
+        </div>
+      </div>
+    )
+  }
+}
 
 const mapStateToProps = state => ({
   isCalculating: state.counter.isCalculating,
