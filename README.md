@@ -59,12 +59,25 @@ npm install
     ```
 7. See the application in the browser
 ```
+127.0.0.1:3000
+```
+8. The APIs are available at
+```
 127.0.0.1:3001
 ```
-or
+## API
+For the purpose of the application one single end-point has been implemented
 ```
-localhost:3001
+/api/duplication/string/<value>?length=<length>
 ```
+It receives two parameters:
+
+- value {string}: an alpha-numeric string to be checked for duplicates
+- length {number}: representing the maximum length of duplicates to be considered 
+
+If no `value` is provided the API returns a `BadRequest` response.
+
+If no `length` is provided the API returns all the possible duplicates.
 
 ## Running the tests
 
