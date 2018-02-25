@@ -40,7 +40,7 @@ npm install
 4. Run the back-end server.
 
 ```
-npm start
+npm server
 ``` 
 
 4. Move into the front-end directory.
@@ -54,9 +54,9 @@ npm install
 ```
 
 6. Run the front-end app in development-mode 
-    ```
-    npm run dev 
-    ```
+```
+npm run dev 
+```
 7. See the application in the browser
 ```
 127.0.0.1:3000
@@ -65,6 +65,10 @@ npm install
 ```
 127.0.0.1:3001
 ```
+9. It is possible to run both API server and client app by using (it doesn't work on Windows):
+```
+npm run start
+```
 ## API
 For the purpose of the application one single end-point has been implemented
 ```
@@ -72,8 +76,8 @@ For the purpose of the application one single end-point has been implemented
 ```
 It receives two parameters:
 
-- value {string}: an alpha-numeric string to be checked for duplicates
-- length {number}: representing the maximum length of duplicates to be considered 
+- `value` {string}: an alpha-numeric string to be checked for duplicates
+- `length` {number}: representing the maximum length of duplicates to be considered 
 
 If no `value` is provided the API returns a `BadRequest` response.
 
