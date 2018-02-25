@@ -1,25 +1,17 @@
-import React, { Component } from 'react';
-import PropTypes from "prop-types";
+import React, {Component} from 'react';
+import DuplicateList from './DuplicateList'
 
-class Duplicates extends Component {
-
-  render() {
-      var items = this.props.items.map(x => {
-        return <li key={x.key} >{x.key}:{x.value}</li>
-      });
+class ResultView extends Component{
+  render(){
+    const view = !this.props.items ? 
+      <div>Error during calculation</div>:
+      <DuplicateList items={this.props.items} />
     return (
-      <ul >
-        {items}
-      </ul>
-    );
+      <div>
+        {view}
+      </div>
+    )
   }
 }
 
-Duplicates.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape({
-    key: PropTypes.string.isRequired,
-    value: PropTypes.number.isRequired,
-  }))
-}
-
-export default Duplicates;
+export default ResultView
