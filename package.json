@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "start": "PORT=3001 nodemon ./bin/www",
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha",
+    "test-watch": "./node_modules/.bin/mocha -w"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
+    "chai-json-schema": "^1.5.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.15.5",

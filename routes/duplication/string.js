@@ -19,12 +19,12 @@ function checkRequest(req) {
 /* /strings/:value */
 module.exports = (req, res, next) => {
   if (!checkRequest(req)) {
-    res.status(400);
-    res.json({
-      error: {
-        msg: 'Invalid string value: only alpha-numeric chars are admitted'
-      }
-    });
+    
+    const msg = 'Invalid string value: only alpha-numeric chars are admitted';
+    if (res.headersSent) {
+      return next(new Error(msg));
+    }
+    res.status(400).json({ error: {msg: msg} });
   }
 
   const length = req.query.length ? req.query.length : -1
@@ -39,7 +39,6 @@ module.exports = (req, res, next) => {
       })
     }
   }
-  console.log(result);
   res.json({
     duplicates: result
   });

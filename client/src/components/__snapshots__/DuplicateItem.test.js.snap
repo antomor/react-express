@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Duplicate item render 1`] = `
+<li>
+  aa
+  :
+  1
+</li>
+`;

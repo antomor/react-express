@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultView renders the Error 1`] = `
+<div>
+  <div>
+    An error occurred:
+    <div>
+      Something wrong with count
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ResultView renders the items properly 1`] = `
+<div>
+  <ul>
+    <li>
+      aa
+      :
+      1
+    </li>
+    <li>
+      bb
+      :
+      10
+    </li>
+  </ul>
+</div>
+`;

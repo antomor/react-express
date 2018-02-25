@@ -41,7 +41,6 @@ class DuplicationCounter {
       for (let j = i+1; j < str.length; j++) {
         const key = str.substring(i, j);
         const remaining = str.substring(j, str.length);
-        console.log(`Key: ${key}, remaining: ${remaining}`)
         if ( !ret.hasOwnProperty(key)) {
           const occurences = this.countOccurences(key, remaining);
           if (occurences > 0) {
@@ -60,11 +59,9 @@ class DuplicationCounter {
    * @param {number} maxLength the maximum length of the repetition to be considered [Optional(default=1)]
    */
   count(str, maxLength = -1) {
-    if ( maxLength > 0 ){
-      console.log('count fixed length');
+    if ( maxLength > 0 ) {
       return this.fixedLengthCount(str, maxLength);
     } else {
-      console.log('all duplicates');
       return this.countAllDuplicates(str);
     }
   }

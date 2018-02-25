@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
-import DuplicateList from './DuplicateList'
+import PropTypes from "prop-types";
+import DuplicateList from './DuplicateList';
+import Error from './Error';
 
 class ResultView extends Component{
   render(){
+    const msg = "Something wrong with count"
     const view = !this.props.items ? 
-      <div>Error during calculation</div>:
+      <Error msg={msg}/>:
       <DuplicateList items={this.props.items} />
     return (
       <div>
@@ -12,6 +15,13 @@ class ResultView extends Component{
       </div>
     )
   }
+}
+
+ResultView.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.shape({
+    key: PropTypes.string.isRequired,
+    value: PropTypes.number.isRequired,
+  }))
 }
 
 export default ResultView

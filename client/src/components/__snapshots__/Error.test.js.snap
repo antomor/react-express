@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error render with msg "Error" 1`] = `
+<div>
+  An error occurred:
+  <div>
+    Error
+  </div>
+</div>
+`;
+
+exports[`Error render without msg 1`] = `
+<div>
+  An error occurred:
+  <div>
+    
+  </div>
+</div>
+`;
