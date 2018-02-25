@@ -15,20 +15,20 @@ class InputHandler extends Component {
       inputLength: 1
     }
     this.handleInputValueChange = this.handleInputValueChange.bind(this)
-    this.handleInputLengthChange = this.handleInputLengthChange.bind(this)
-    this.checkInput = this.checkInput.bind(this)
+    this.checkCharDuplication = this.checkCharDuplication.bind(this)
+    this.checkStringDuplication = this.checkStringDuplication.bind(this)
   }
 
   handleInputValueChange(e) {
     this.setState({inputValue: e.target.value})
   }
 
-  handleInputLengthChange(e) {
-    this.setState({inputLength: e.target.value})
+  checkCharDuplication(e) {
+    this.props.countDuplicatesIfValue(this.state.inputValue, 1)
   }
 
-  checkInput(e) {
-    this.props.countDuplicatesIfValue(this.state.inputValue, this.state.inputLength)
+  checkStringDuplication(e) {
+    this.props.countDuplicatesIfValue(this.state.inputValue)
   }
 
   render() {
@@ -39,12 +39,8 @@ class InputHandler extends Component {
           value={this.state.inputValue}
           onChange={this.handleInputValueChange}
           placeholder="Type or paste a string"/>
-        <input 
-          type="number"
-          value={this.state.inputLength}
-          onChange={this.handleInputLengthChange}
-          placeholder="Type or paste a string"/>
-        <button onClick={this.checkInput}>Check</button> 
+        <button onClick={this.checkCharDuplication}>Check char</button>
+        <button onClick={this.checkStringDuplication}>Check string</button>
       </div>
     );
   }

@@ -26,7 +26,7 @@ function countDuplicates(value, length) {
   }
 }
 
-export function countDuplicatesIfValue(value, length=1) {
+export function countDuplicatesIfValue(value, length) {
   return (dispatch, getState) => {
     if (value) {
       dispatch(countRequest())
