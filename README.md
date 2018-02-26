@@ -40,7 +40,7 @@ npm install
 4. Run the back-end server.
 
 ```
-npm server
+npm run server
 ``` 
 
 4. Move into the front-end directory.
@@ -55,17 +55,15 @@ npm install
 
 6. Run the front-end app in development-mode 
 ```
-npm run dev 
+npm start 
 ```
-7. See the application in the browser
+7. See the application running locally: [127.0.0.1:3000](127.0.0.1:3000)
+
+8. The APIs are available locally: [127.0.0.1:3001](127.0.0.1:3001)
 ```
-127.0.0.1:3000
+
 ```
-8. The APIs are available at
-```
-127.0.0.1:3001
-```
-9. It is possible to run both API server and client app by using (it doesn't work on Windows):
+9. It is possible to run both API server and client app by using from the root folder, otherwise it will run the client only (it doesn't work on Windows).
 ```
 npm run start
 ```
@@ -94,10 +92,11 @@ npm run test
 ```
 
 ### Front-end app test
-In the front-end directory (the client folder under the root project folder) run
+In the front-end directory (the client folder under the root project folder).
 ```
-npm run test
+npm run test 
 ```
+The first time, an interactive windows will show the message no tests available since that not snapshots have been create yet. At that time, please press `a` for running all tests.
 
 ### End to end tests
 
