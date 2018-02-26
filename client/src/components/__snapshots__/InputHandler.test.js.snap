@@ -61,7 +61,7 @@ exports[`InputHandler renders 1`] = `
       <button
         aria-haspopup="true"
         aria-owns={null}
-        className="MuiButtonBase-root-142 MuiButton-root-127"
+        className="MuiButtonBase-root-142 MuiButton-root-127 MuiButton-raised-132 MuiButton-raisedSecondary-135"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}

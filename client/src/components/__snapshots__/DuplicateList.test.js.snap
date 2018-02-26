@@ -13,21 +13,21 @@ exports[`DuplicateList renders 1`] = `
     }
   >
     <li
-      className="MuiGridListTile-root-5"
+      className="MuiGridListTile-root-8"
     >
       <div
-        className="MuiGridListTile-tile-6"
+        className="MuiGridListTile-tile-9"
       >
         <div
-          className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+          className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-root-5"
         >
           <div
-            className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+            className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-itemKey-6"
           >
             aa
           </div>
           <div
-            className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+            className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-itemValue-7"
           >
             1
           </div>
@@ -35,21 +35,21 @@ exports[`DuplicateList renders 1`] = `
       </div>
     </li>
     <li
-      className="MuiGridListTile-root-5"
+      className="MuiGridListTile-root-8"
     >
       <div
-        className="MuiGridListTile-tile-6"
+        className="MuiGridListTile-tile-9"
       >
         <div
-          className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+          className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-root-5"
         >
           <div
-            className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+            className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-itemKey-6"
           >
             bb
           </div>
           <div
-            className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+            className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-itemValue-7"
           >
             10
           </div>

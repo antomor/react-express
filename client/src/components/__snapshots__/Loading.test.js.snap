@@ -5,15 +5,15 @@ exports[`Loading renders 1`] = `
   className="Loading-root-1"
 >
   <div
-    className="MuiLinearProgress-root-2 MuiLinearProgress-primaryColor-3"
+    className="MuiLinearProgress-root-2 MuiLinearProgress-secondaryColor-6"
     role="progressbar"
   >
     <div
-      className="MuiLinearProgress-bar-9 MuiLinearProgress-primaryColorBar-4 MuiLinearProgress-indeterminateBar1-14"
+      className="MuiLinearProgress-bar-9 MuiLinearProgress-secondaryColorBar-7 MuiLinearProgress-indeterminateBar1-14"
       style={Object {}}
     />
     <div
-      className="MuiLinearProgress-bar-9 MuiLinearProgress-primaryColorBar-4 MuiLinearProgress-indeterminateBar2-15"
+      className="MuiLinearProgress-bar-9 MuiLinearProgress-secondaryColorBar-7 MuiLinearProgress-indeterminateBar2-15"
       style={Object {}}
     />
   </div>

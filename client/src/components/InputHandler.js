@@ -90,7 +90,8 @@ class InputHandler extends Component {
               aria-haspopup="true"
               onClick={this.handleOpen}
               disabled={this.state.isCalculating}
-              >
+              color="secondary"
+              variant="raised">
             Check
           </Button>
           <Menu

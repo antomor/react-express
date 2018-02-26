@@ -2,21 +2,21 @@
 
 exports[`Duplicate item renders 1`] = `
 <li
-  className="MuiGridListTile-root-1"
+  className="MuiGridListTile-root-4"
 >
   <div
-    className="MuiGridListTile-tile-2"
+    className="MuiGridListTile-tile-5"
   >
     <div
-      className="MuiPaper-root-5 MuiPaper-shadow2-9 MuiPaper-rounded-6"
+      className="MuiPaper-root-8 MuiPaper-shadow2-12 MuiPaper-rounded-9 DuplicateItem-root-1"
     >
       <div
-        className="MuiPaper-root-5 MuiPaper-shadow2-9 MuiPaper-rounded-6"
+        className="MuiPaper-root-8 MuiPaper-shadow2-12 MuiPaper-rounded-9 DuplicateItem-itemKey-2"
       >
         aa
       </div>
       <div
-        className="MuiPaper-root-5 MuiPaper-shadow2-9 MuiPaper-rounded-6"
+        className="MuiPaper-root-8 MuiPaper-shadow2-12 MuiPaper-rounded-9 DuplicateItem-itemValue-3"
       >
         1
       </div>

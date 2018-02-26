@@ -17,9 +17,7 @@ function countReceived(json) {
 function countDuplicates(value, length) {
   return dispatch => {
     const url = `/api/duplication/string/${value}?length=${length}`;
-    // return fetch(url)
-    //   .then(response => response.json())
-    //   .then(json => dispatch(countReceived(json)))
+    //1s timeout is set to simulate a long operation and to show a loading bar.
     setTimeout(() => {
     return fetch(url)
       .then(response => response.json())
