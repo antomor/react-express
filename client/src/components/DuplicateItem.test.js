@@ -3,7 +3,7 @@ import DuplicateItem from './DuplicateItem';
 import renderer from 'react-test-renderer';
 
 describe('Duplicate item', () => {
-  it('render', () => {
+  it('renders', () => {
     const item = {
       key: 'aa',
       value: 1

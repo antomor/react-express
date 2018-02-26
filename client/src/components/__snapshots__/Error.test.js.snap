@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Error render with msg "Error" 1`] = `
+exports[`Error renders with msg "Error" 1`] = `
 <div>
   An error occurred:
   <div>
@@ -9,7 +9,7 @@ exports[`Error render with msg "Error" 1`] = `
 </div>
 `;
 
-exports[`Error render without msg 1`] = `
+exports[`Error renders without msg 1`] = `
 <div>
   An error occurred:
   <div>

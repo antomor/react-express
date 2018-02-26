@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputHandler renders 1`] = `
+<div>
+  <div
+    className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-24-27"
+  >
+    <div
+      className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-38"
+    >
+      <div
+        aria-describedby="helperText-helper-text"
+        className="MuiFormControl-root-94 MuiFormControl-marginNormal-95 Connect-InputHandler--textField-2"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        <label
+          className="MuiFormLabel-root-104 MuiInputLabel-root-98 MuiInputLabel-formControl-99 MuiInputLabel-animated-102"
+          data-shrink={false}
+          htmlFor="helperText"
+        >
+          String to be checked
+        </label>
+        <div
+          className="MuiInput-root-108 MuiInput-formControl-109 MuiInput-inkbar-110 MuiInput-underline-114"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            aria-required={false}
+            autoComplete={undefined}
+            autoFocus={undefined}
+            className="MuiInput-input-117"
+            defaultValue={undefined}
+            disabled={false}
+            id="helperText"
+            name={undefined}
+            onChange={[Function]}
+            onKeyDown={undefined}
+            onKeyUp={undefined}
+            placeholder="Type or paste a string"
+            readOnly={undefined}
+            required={undefined}
+            rows={undefined}
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          className="MuiFormHelperText-root-123"
+          id="helperText-helper-text"
+        >
+          Only alpha-numberic
+        </p>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-32"
+    >
+      <button
+        aria-haspopup="true"
+        aria-owns={null}
+        className="MuiButtonBase-root-142 MuiButton-root-127"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label-128"
+        >
+          Check
+        </span>
+        <span
+          className="MuiTouchRipple-root-144"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

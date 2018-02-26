@@ -1,10 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Loading render 1`] = `
+exports[`Loading renders 1`] = `
 <div
   className="Loading-root-1"
 >
-  Loading...
   <div
     className="MuiLinearProgress-root-2 MuiLinearProgress-primaryColor-3"
     role="progressbar"

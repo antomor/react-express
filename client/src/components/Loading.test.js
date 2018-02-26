@@ -3,7 +3,7 @@ import Loading from './Loading';
 import renderer from 'react-test-renderer';
 
 describe('Loading', () => {
-  it('render', () => {
+  it('renders', () => {
     const component = renderer.create(
       <Loading />,
     );

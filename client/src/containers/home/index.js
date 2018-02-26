@@ -36,6 +36,7 @@ class Home extends Component {
           <Paper className={classes.paper}>
           <div>
             <InputHandler />
+            <h3>Duplicate String Checker</h3>
             {result}
           </div>
           </Paper>

@@ -3,7 +3,7 @@ import DuplicateList from './DuplicateList';
 import renderer from 'react-test-renderer';
 
 describe('DuplicateList', () => {
-  it('render', () => {
+  it('renders', () => {
     const items = [
       {
         key: 'aa',

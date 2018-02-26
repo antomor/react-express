@@ -3,7 +3,7 @@ import Error from './Error';
 import renderer from 'react-test-renderer';
 
 describe('Error', () => {
-  it('render without msg', () => {
+  it('renders without msg', () => {
     const component = renderer.create(
       <Error />,
     );
@@ -11,7 +11,7 @@ describe('Error', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('render with msg "Error"', () => {
+  it('renders with msg "Error"', () => {
     const component = renderer.create(
       <Error msg="Error"/>,
     );

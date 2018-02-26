@@ -92,15 +92,16 @@ In the root project directory run:
 ```
 npm run test
 ```
-### API test
+
+### Front-end app test
 In the front-end directory (the client folder under the root project folder) run
 ```
 npm run test
 ```
+
 ### End to end tests
 
 For time-reason no ent-to-end tests have been implemented, although for a production project, they are a MUST.
-
 
 ### Tests Notes
 

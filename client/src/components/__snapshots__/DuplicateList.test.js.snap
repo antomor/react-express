@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DuplicateList render 1`] = `
+exports[`DuplicateList renders 1`] = `
 <div
   className="DuplicateList-root-1"
 >

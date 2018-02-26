@@ -28,7 +28,6 @@ class DuplicateList extends Component {
       const { classes } = this.props;
     return (
       <div className={classes.root}>
-        {/* <h3>Duplicate String Checker</h3> */}
         <GridList cellHeight={160} className={classes.gridList} cols={3}>
           {items}
           </GridList>

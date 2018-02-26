@@ -35,8 +35,7 @@ class InputHandler extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      inputValue: '',
-      inputLength: 1
+      inputValue: ''
     }
     this.handleInputValueChange = this.handleInputValueChange.bind(this)
     this.checkCharDuplication = this.checkCharDuplication.bind(this)
@@ -71,6 +70,7 @@ class InputHandler extends Component {
     const { classes } = this.props;
     return (
       <div>
+        
         <Grid container spacing={24}>
           <Grid item xs={9}>
             <TextField
@@ -89,6 +89,7 @@ class InputHandler extends Component {
               aria-owns={anchorEl ? 'simple-menu' : null}
               aria-haspopup="true"
               onClick={this.handleOpen}
+              disabled={this.state.isCalculating}
               >
             Check
           </Button>

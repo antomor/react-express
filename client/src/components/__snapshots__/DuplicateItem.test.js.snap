@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Duplicate item render 1`] = `
+exports[`Duplicate item renders 1`] = `
 <li
   className="MuiGridListTile-root-1"
 >
