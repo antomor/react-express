@@ -1,7 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { withStyles } from 'material-ui/styles';
+import { LinearProgress } from 'material-ui/Progress';
 
-const Loading = props => (
-  <div>Loading...</div>
-)
+const styles = {
+  root: {
+    flexGrow: 1,
+  },
+};
 
-export default Loading;
+const Loading = props => {
+  const { classes } = props;
+  return (
+    <div className={classes.root}>
+      <LinearProgress />
+    </div>
+  );
+}
+
+export default withStyles(styles)(Loading);

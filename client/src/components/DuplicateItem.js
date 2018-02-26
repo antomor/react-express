@@ -1,8 +1,19 @@
 import React from 'react';
+import Paper from 'material-ui/Paper';
+import { GridListTile } from 'material-ui/GridList';
 
 const DuplicateItem = props => {
   return (
-    <li>{props.item.key}:{props.item.value}</li>
+    <GridListTile key={props.item.key} cols={2}>
+      <Paper> 
+        <Paper> 
+          {props.item.key}
+        </Paper>
+        <Paper> 
+        {props.item.value}
+        </Paper>
+      </Paper>
+    </GridListTile>
   )
 }
 

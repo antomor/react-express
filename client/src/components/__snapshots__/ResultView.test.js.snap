@@ -13,17 +13,62 @@ exports[`ResultView renders the Error 1`] = `
 
 exports[`ResultView renders the items properly 1`] = `
 <div>
-  <ul>
-    <li>
-      aa
-      :
-      1
-    </li>
-    <li>
-      bb
-      :
-      10
-    </li>
-  </ul>
+  <div
+    className="DuplicateList-root-1"
+  >
+    <ul
+      className="MuiGridList-root-4 DuplicateList-gridList-2"
+      style={
+        Object {
+          "margin": -2,
+        }
+      }
+    >
+      <li
+        className="MuiGridListTile-root-5"
+      >
+        <div
+          className="MuiGridListTile-tile-6"
+        >
+          <div
+            className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+          >
+            <div
+              className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+            >
+              aa
+            </div>
+            <div
+              className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+            >
+              1
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiGridListTile-root-5"
+      >
+        <div
+          className="MuiGridListTile-tile-6"
+        >
+          <div
+            className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+          >
+            <div
+              className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+            >
+              bb
+            </div>
+            <div
+              className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
+            >
+              10
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
 </div>
 `;

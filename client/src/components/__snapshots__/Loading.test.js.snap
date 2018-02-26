@@ -1,7 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Loading render 1`] = `
-<div>
+<div
+  className="Loading-root-1"
+>
   Loading...
+  <div
+    className="MuiLinearProgress-root-2 MuiLinearProgress-primaryColor-3"
+    role="progressbar"
+  >
+    <div
+      className="MuiLinearProgress-bar-9 MuiLinearProgress-primaryColorBar-4 MuiLinearProgress-indeterminateBar1-14"
+      style={Object {}}
+    />
+    <div
+      className="MuiLinearProgress-bar-9 MuiLinearProgress-primaryColorBar-4 MuiLinearProgress-indeterminateBar2-15"
+      style={Object {}}
+    />
+  </div>
 </div>
 `;

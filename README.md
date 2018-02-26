@@ -114,6 +114,7 @@ No live deployment implemented at the moment.
 
 * [ExpressJS](http://expressjs.com/) - For the API server
 * [ReactJS](https://reactjs.org/) - UI Framework
+* [Material-UI](https://material-ui-next.com/) - Google's Material Design implementation
 * [ChaiJS](http://chaijs.com/) - Back-end tests
 * [Enzyme](https://github.com/airbnb/enzyme) - Front-end tests
 

@@ -16,12 +16,15 @@ function countReceived(json) {
 
 function countDuplicates(value, length) {
   return dispatch => {
-    setTimeout(() => {
-      const url = `/api/duplication/string/${value}?length=${length}`;
+    const url = `/api/duplication/string/${value}?length=${length}`;
     return fetch(url)
       .then(response => response.json())
       .then(json => dispatch(countReceived(json)))
-    }, 3000);
+    // setTimeout(() => {
+    // return fetch(url)
+    //   .then(response => response.json())
+    //   .then(json => dispatch(countReceived(json)))
+    // }, 1000);
     
   }
 }

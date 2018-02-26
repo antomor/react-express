@@ -1,9 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Duplicate item render 1`] = `
-<li>
-  aa
-  :
-  1
+<li
+  className="MuiGridListTile-root-1"
+>
+  <div
+    className="MuiGridListTile-tile-2"
+  >
+    <div
+      className="MuiPaper-root-5 MuiPaper-shadow2-9 MuiPaper-rounded-6"
+    >
+      <div
+        className="MuiPaper-root-5 MuiPaper-shadow2-9 MuiPaper-rounded-6"
+      >
+        aa
+      </div>
+      <div
+        className="MuiPaper-root-5 MuiPaper-shadow2-9 MuiPaper-rounded-6"
+      >
+        1
+      </div>
+    </div>
+  </div>
 </li>
 `;
