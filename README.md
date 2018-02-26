@@ -57,9 +57,9 @@ npm install
 ```
 npm start 
 ```
-7. See the application running locally: [127.0.0.1:3000](127.0.0.1:3000)
+7. See the application running locally: [127.0.0.1:3000](http://127.0.0.1:3000)
 
-8. The APIs are available locally: [127.0.0.1:3001](127.0.0.1:3001)
+8. The APIs are available locally: [127.0.0.1:3001](http://127.0.0.1:3001)
 ```
 
 ```
