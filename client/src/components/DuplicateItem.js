@@ -31,13 +31,17 @@ const styles = theme => ({
 const DuplicateItem = props => {
   const { classes } = props;
   return (
-    <GridListTile key={props.item.key} cols={2}>
+    <GridListTile key={props.item.key} cols={3}>
       <Paper className={classes.root}> 
-        <Paper className={classes.itemKey}> 
-          {props.item.key}
+        <Paper className={classes.itemKey}>
+          <Typography variant="subheading" gutterBottom>
+            {props.item.key}
+          </Typography>
         </Paper>
-        <Paper className={classes.itemValue}> 
-        {props.item.value}
+        <Paper className={classes.itemValue}>
+          <Typography variant="subheading" gutterBottom>
+            {props.item.value}
+          </Typography>
         </Paper>
       </Paper>
     </GridListTile>

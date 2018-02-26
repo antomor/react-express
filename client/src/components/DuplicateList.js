@@ -14,7 +14,7 @@ const styles = theme => ({
   },
   gridList: {
     width: 500,
-    height: 450,
+    height: 'inherits',
   },
   subheader: {
     width: '100%',

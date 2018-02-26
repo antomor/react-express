@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-// import PropTypes from "prop-types";
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+
 import Grid from 'material-ui/Grid';
 import { withStyles } from 'material-ui/styles';
 import TextField from 'material-ui/TextField';
@@ -110,8 +110,6 @@ class InputHandler extends Component {
   }
 }
 
-InputHandler.propTypes = {
-}
 const mapStateToProps = state => ({
   isCalculating: state.counter.isCalculating
 })

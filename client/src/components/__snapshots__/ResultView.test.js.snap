@@ -36,12 +36,20 @@ exports[`ResultView renders the items properly 1`] = `
             <div
               className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-itemKey-6"
             >
-              aa
+              <h3
+                className="MuiTypography-root-39 MuiTypography-subheading-46 MuiTypography-gutterBottom-56"
+              >
+                aa
+              </h3>
             </div>
             <div
               className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-itemValue-7"
             >
-              1
+              <h3
+                className="MuiTypography-root-39 MuiTypography-subheading-46 MuiTypography-gutterBottom-56"
+              >
+                1
+              </h3>
             </div>
           </div>
         </div>
@@ -58,12 +66,20 @@ exports[`ResultView renders the items properly 1`] = `
             <div
               className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-itemKey-6"
             >
-              bb
+              <h3
+                className="MuiTypography-root-39 MuiTypography-subheading-46 MuiTypography-gutterBottom-56"
+              >
+                bb
+              </h3>
             </div>
             <div
               className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13 DuplicateItem-itemValue-7"
             >
-              10
+              <h3
+                className="MuiTypography-root-39 MuiTypography-subheading-46 MuiTypography-gutterBottom-56"
+              >
+                10
+              </h3>
             </div>
           </div>
         </div>
